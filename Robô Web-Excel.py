@@ -21,9 +21,6 @@ from time import sleep
 import os
 import openpyxl as xl
 from datetime import datetime
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.common.alert import Alert
-import pandas as pd
 
 
 # Opções do Navegador
@@ -182,7 +179,7 @@ for i in lista:
 
 
 
-# Interação Fila e Helper
+# Interação com Excel
 
 wb1 = xl.load_workbook('Arquivo que vai receber os dados.xlsx')
 
